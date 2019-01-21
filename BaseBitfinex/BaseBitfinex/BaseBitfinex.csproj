@@ -88,6 +88,8 @@
     <Compile Include="Converters\TimeFrameConverter.cs" />
     <Compile Include="Converters\WalletTypeConverter.cs" />
     <Compile Include="Converters\WithdrawWalletConverter.cs" />
+    <Compile Include="Interfaces\IBitfinexClient.cs" />
+    <Compile Include="Interfaces\IBitfinexSocketClient.cs" />
     <Compile Include="Objects\BitfinexAlert.cs" />
     <Compile Include="Objects\BitfinexAvailableBalance.cs" />
     <Compile Include="Objects\BitfinexCandle.cs" />
