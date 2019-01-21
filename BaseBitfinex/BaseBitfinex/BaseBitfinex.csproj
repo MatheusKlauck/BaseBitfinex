@@ -53,6 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitfinexAuthenticationProvider.cs" />
+    <Compile Include="BitfinexClient.cs" />
+    <Compile Include="BitfinexSocketClient.cs" />
     <Compile Include="Converters\BoolToIntConverter.cs" />
     <Compile Include="Converters\DecimalAsStringConverter.cs" />
     <Compile Include="Converters\DepositMethodConverter.cs" />
